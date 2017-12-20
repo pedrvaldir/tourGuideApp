@@ -1,0 +1,48 @@
+<resources>
+    <!-- Title for the application. [CHAR LIMIT=12] -->
+    <string name="app_name">tourGuideApp</string>
+
+    <!-- Category name for food [CHAR LIMIT=20] -->
+    <string name="category_food">Alimentação e restaurantes</string>
+
+    <!-- category name of word list for hotels [CHAR LIMIT=20] -->
+    <string name="category_hotel">Hotéis e motéis</string>
+
+    <!-- category name of word list for recreation [CHAR LIMIT=20] -->
+    <string name="category_recreation">Lazer e entretenimento</string>
+
+    <!-- category name of word list for usefulTelephones  [CHAR LIMIT=20] -->
+    <string name="category_userfulTelephones">Telefones utéis</string>
+
+
+    <!-- Informações para a categoria Food [CHAR LIMIT=20] -->
+    <string name="title_food_estrad">Churrascaria Estradão</string>
+    <string name="adress_food_estrad">Rodovia Francisco Alves Negrão, KM 340, Itararé, SP</string>
+    <string name="tel_food_estrad">(15) 3532-5858</string>
+
+    <string name="title_food_don">Don Cremona</string>
+    <string name="adress_food_don">Rua Lauro Sodré, 360, Itararé, SP</string>
+    <string name="tel_food_don">(15) 3532-0000</string>
+
+    <string name="title_food_bra">Brasileirinho</string>
+    <string name="adress_food_bra">Rua Cel. Monteiro, 233, Itararé, SP</string>
+    <string name="tel_food_bra">(15) 3532-2145</string>
+
+    <string name="title_food_tr">Trilha do Caracol</string>
+    <string name="adress_food_tr">Av. Paulina de Moraes, 135 Itararé, SP</string>
+    <string name="tel_food_tr">(15) 3531-3338</string>
+
+    <string name="title_food_sergio">Sergios Restaurante</string>
+    <string name="adress_food_sergio">Av José Ermirio de Moraes, 552, Itararé, SP</string>
+    <string name="tel_food_sergio">(15) 3532-5275</string>
+
+    <string name="title_food_esc">ESCAROLLA</string>
+    <string name="adress_food_esc">Pr. 20 de Setembro, 274, Itararé, SP</string>
+    <string name="tel_food_esc">(15) 3522-1897</string>
+
+
+    <string name="title_food_hoshi">Hoshi Garden - Itararé</string>
+    <string name="adress_food_hoshi">Rua Cel. Crescêncio, 282, Itararé, SP</string>
+    <string name="tel_food_hoshi">(15) 3531 2386</string>
+
+</resources>

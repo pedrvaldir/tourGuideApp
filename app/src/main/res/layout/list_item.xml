@@ -1,0 +1,33 @@
+<!-- Layout for a single list item -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/title_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="Título" />
+
+    <TextView
+        android:id="@+id/adress_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="Endereço" />
+
+    <TextView
+        android:id="@+id/telephone_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="telephone" />
+
+    <TextView
+        android:id="@+id/operating_hours_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="horario de funcionamento" />
+
+</LinearLayout>
