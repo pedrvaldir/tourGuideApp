@@ -16,10 +16,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".FoodActivity" />
-        <activity android:name=".HotelActivity" />
-        <activity android:name=".RecreationActivity" />
-        <activity android:name=".UserfulTelephonesActivity"></activity>
+        <activity android:name=".FoodActivity" android:label="@string/category_food" android:parentActivityName="com.example.valdir.tourguideapp.MainActivity"/>
+        <activity android:name=".HotelActivity" android:label="@string/category_hotel" android:parentActivityName="com.example.valdir.tourguideapp.MainActivity"/>
+        <activity android:name=".RecreationActivity" android:label="@string/category_recreation" android:parentActivityName="com.example.valdir.tourguideapp.MainActivity"/>
+        <activity android:name=".UserfulTelephonesActivity" android:label="@string/category_userfulTelephones" android:parentActivityName="com.example.valdir.tourguideapp.MainActivity"></activity>
     </application>
 
 </manifest>

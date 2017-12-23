@@ -11,6 +11,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
+import android.widget.ImageView;
 import android.widget.TextView;
 import java.util.ArrayList;
 
@@ -19,7 +20,7 @@ public class ElementAdapter extends ArrayAdapter<Element> {
     /**
      * Criar um novo objeto {@link ElementAdapter}
      *
-     * @param e o contexto atual (isto é, atividade) que o adaptador está sendo criado.
+     * @param  context eh o  contexto atual (isto é, atividade) que o adaptador está sendo criado.
      * @param elements é a lista de {@link Element} a ser exibido.
      */
     public ElementAdapter(Context context, ArrayList<Element> elements) {
@@ -57,6 +58,20 @@ public class ElementAdapter extends ArrayAdapter<Element> {
         TextView operatingTextView = (TextView) listItemView.findViewById(R.id.operating_hours_text_view);
         operatingTextView.setText(currentElement.getOperatingHours());
 
+        // Encontre o ImageView no layout list_item.xml com a imagem ID.
+        ImageView imageView = (ImageView) listItemView.findViewById(R.id.image);
+
+        // Verifique se uma imagem é fornecida para o elemento ou não
+        if (currentElement.hasImage()) {
+            // Defina o ImageView para o recurso de imagem especificado no Word atual
+            imageView.setImageResource(currentElement.getmImagemResourceId());
+
+            // Verifique se a visualização está visível
+            imageView.setVisibility(View.VISIBLE);
+        }else{
+            // Caso contrário, esconda o ImageView (defina a visibilidade para GONE)
+            imageView.setVisibility(View.GONE);
+        }
 
         // Retorne todo o layout do item da lista (contendo 3 TextViews) para que ele possa ser mostrado no
         // ListView.

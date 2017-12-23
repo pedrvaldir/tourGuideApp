@@ -1,17 +1,17 @@
 <resources>
-    <!-- Title for the application. [CHAR LIMIT=12] -->
+    <!-- Titulo do app. [CHAR LIMIT=12] -->
     <string name="app_name">tourGuideApp</string>
 
-    <!-- Category name for food [CHAR LIMIT=20] -->
+    <!-- Nome para a categoria aalimentacao [CHAR LIMIT=20] -->
     <string name="category_food">Alimentação e restaurantes</string>
 
-    <!-- category name of word list for hotels [CHAR LIMIT=20] -->
+    <!-- Nome para a categoria hoteis e moteis [CHAR LIMIT=20] -->
     <string name="category_hotel">Hotéis e motéis</string>
 
-    <!-- category name of word list for recreation [CHAR LIMIT=20] -->
+    <!-- nome para a lista de categorias lazer e entretenimento [CHAR LIMIT=20] -->
     <string name="category_recreation">Lazer e entretenimento</string>
 
-    <!-- category name of word list for usefulTelephones  [CHAR LIMIT=20] -->
+    <!-- Nome para a categoria telefones uteis  [CHAR LIMIT=20] -->
     <string name="category_userfulTelephones">Telefones utéis</string>
 
 
@@ -40,9 +40,92 @@
     <string name="adress_food_esc">Pr. 20 de Setembro, 274, Itararé, SP</string>
     <string name="tel_food_esc">(15) 3522-1897</string>
 
-
     <string name="title_food_hoshi">Hoshi Garden - Itararé</string>
     <string name="adress_food_hoshi">Rua Cel. Crescêncio, 282, Itararé, SP</string>
     <string name="tel_food_hoshi">(15) 3531 2386</string>
+
+    <!-- Informações para a categoria hotel [CHAR LIMIT=20] -->
+    <string name="title_hotel_ita">Hotel Itararé</string>
+    <string name="adress_hotel_ita">Rua São Pedro, 995, Itararé, SP</string>
+    <string name="tel_hotel_ita">(15) 3531-1505</string>
+
+    <string name="title_hotel_mar">Hotel Martins</string>
+    <string name="adress_hotel_mar">RUA ITARARÉ 1222, Itararé, SP</string>
+    <string name="tel_hotel_mar">(15) 3532-0443</string>
+
+    <string name="title_hotel_glo">Hotel Globo</string>
+    <string name="adress_hotel_glo">RUA JOSÉ DE ALENCAR 1255 , Itararé, SP</string>
+    <string name="tel_hotel_glo">(15) 3532-1174</string>
+
+    <string name="title_hotel_cla">Classic Motel</string>
+    <string name="adress_hotel_cla">Rodovia Francisco Alves Negrão, Km 340, Itararé, SP</string>
+    <string name="tel_hotel_cla">(15) 3531-1030</string>
+
+    <string name="title_hotel_and">Pousada das Andorinhas</string>
+    <string name="adress_hotel_and">rua são pedro 1200 , Itararé, SP</string>
+    <string name="tel_hotel_and">(15) 3532-1109</string>
+
+    <string name="title_hotel_par">Hotel Paraíso</string>
+    <string name="adress_hotel_par">Rua: XV de Novembro, 1800, Itararé, SP</string>
+    <string name="tel_hotel_par">(15) 3532-5083</string>
+
+    <string name="title_hotel_dri">Drive-In</string>
+    <string name="adress_hotel_dri">Rod. Francisco Alves Negrão, Km 340, Itararé, SP</string>
+    <string name="tel_hotel_dri">(15) 3532-4586</string>
+
+    <!-- Informações para a categoria lazer e entretenimento [CHAR LIMIT=20] -->
+    <string name="title_recre_est">Estação XV</string>
+    <string name="adress_recre_est">Rua Xv de Novembro, 780, Itararé, SP</string>
+    <string name="tel_recre_est">(15) 3531-2696</string>
+
+    <string name="title_recre_meg">Mega Vídeo</string>
+    <string name="adress_recre_meg">Rua Quinze de Novembro, 381, Itararé, SP</string>
+    <string name="tel_recre_meg">15) 3532-1434 - 3531-2370</string>
+
+
+    <string name="title_recre_rev">Revistaria e Cia</string>
+    <string name="adress_recre_rev">praça são pedro 255, Itararé, SP</string>
+    <string name="tel_recre_rev">(15) 3532-1795</string>
+
+    <string name="title_recre_sant">Comercial Santo Amaro</string>
+    <string name="adress_recre_sant">são pedro 552 , Itararé, SP</string>
+    <string name="tel_recre_sant">(15) 3531-1305</string>
+
+    <string name="title_recre_gam">games.com</string>
+    <string name="adress_recre_gam">Rua Eduardo Martins, 360, Itararé, SP</string>
+    <string name="tel_recre_gam">(15) 3532-3794</string>
+
+    <string name="title_recre_bic">Bicicletaria Veloz</string>
+    <string name="adress_recre_bic">São Pedro, 2142, Itararé, SP</string>
+    <string name="tel_recre_bic">(15) 9777-1673</string>
+
+    <!-- Informações para a categoria telefones uteis [CHAR LIMIT=20] -->
+    <string name="title_tel_assc">Associação Comercial de Itararé</string>
+    <string name="adress_tel_assc">Mercado Municipal - Box 26, Itararé, SP</string>
+    <string name="tel_tel_assc">(15) 3531-3000</string>
+
+    <string name="title_tel_guard">Guarda Mirim de itararé</string>
+    <string name="adress_tel_guard">Rua Sebastião Jacopetti, 440, Itararé, SP</string>
+    <string name="tel_tel_guard">(15) 3532-4342</string>
+
+    <string name="title_tel_dire">Diretoria de Ensino de Itararé</string>
+    <string name="adress_tel_dire">São Pedro, 2661, Itararé, SP</string>
+    <string name="tel_tel_dire">(15) 3531-8000</string>
+
+    <string name="title_tel_pref">Prefeitura Municipal de Itararé</string>
+    <string name="adress_tel_pref">XV DE NOVEMBRO 23, Itararé, SP</string>
+    <string name="tel_tel_pref">(15) 3532-8000</string>
+
+    <string name="title_tel_secc">Secretaria da Cultura e Turismo de Itararé</string>
+    <string name="adress_tel_secc">RUA FREI CANECA 1522, Itararé, SP</string>
+    <string name="tel_tel_secc">(15) 3532-4956</string>
+
+
+    <string name="operating_time_24H">24H</string>
+    <string name="operating_time_comerc">SEG A SEX: 8H AS 18H</string>
+    <string name="operating_time_10H">SEG A SAB: 10H AS 23H59</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 
 </resources>
