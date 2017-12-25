@@ -14,7 +14,6 @@
     <!-- Nome para a categoria telefones uteis  [CHAR LIMIT=20] -->
     <string name="category_userfulTelephones">Telefones utéis</string>
 
-
     <!-- Informações para a categoria Food [CHAR LIMIT=20] -->
     <string name="title_food_estrad">Churrascaria Estradão</string>
     <string name="adress_food_estrad">Rodovia Francisco Alves Negrão, KM 340, Itararé, SP</string>
@@ -125,7 +124,4 @@
     <string name="operating_time_comerc">SEG A SEX: 8H AS 18H</string>
     <string name="operating_time_10H">SEG A SAB: 10H AS 23H59</string>
 
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
-
-</resources>
+ </resources>

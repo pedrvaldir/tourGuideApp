@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <resources>
-    <!-- Primary color of the app (shown in the app bar) -->
-    <color name="primary_color">#4A312A</color>
+    <!-- Cor primária do aplicativo -->
+    <color name="primary_color">#69463c</color>
 
-    <!-- Primary dark color of the app (shown in the status bar) -->
-    <color name="primary_dark_color">#2F1D1A</color>
+    <!-- Cor escura primária do aplicativo -->
+    <color name="primary_dark_color">#79291c</color>
 
-    <!-- Background color for app -->
+    <!-- Cor de plano de fundo para o aplicativo -->
     <color name="tan_background">#FFF7DA</color>
 
-    <!-- Background color for the food category -->
-    <color name="category_food">#FD8E09</color>
+    <!-- Cor de fundo para a categoria de alimentos -->
+    <color name="category_food">#26ac31</color>
 
-    <!-- Background color for the hotel category -->
-    <color name="category_hotel">#379237</color>
+    <!-- Cor de fundo para a categoria de hotel -->
+    <color name="category_hotel">#376092</color>
 
-    <!-- Background color for the recreation category -->
-    <color name="category_recreation">#8800A0</color>
+    <!-- Cor de fundo para a categoria lazer -->
+    <color name="category_recreation">#ac460f</color>
 
-    <!-- Background color for the usefulTelephones category -->
+    <!-- Cor de fundo para a categoria telefones uteis -->
     <color name="category_userfulTelephones">#16AFCA</color>
 
     <color name="tab_background">#c0d0d3</color>

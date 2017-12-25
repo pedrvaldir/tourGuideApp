@@ -7,29 +7,22 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ListView;
-import android.widget.TextView;
 
 import java.util.ArrayList;
 
 /**
- * A simple {@link Fragment} subclass.
+ * Uma subclasse {@link Fragment} simples.
  */
 public class HotelFragment extends Fragment {
 
-
     public HotelFragment() {
-        // Required empty public constructor
     }
-
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
 
         View rootView = inflater.inflate(R.layout.element_list, container, false);
-
-        //Cria um array de palavras
-        //String[] elemets = new String[10];
 
         // Cria um arrayList de elementos
         ArrayList<Element> elements = new ArrayList<Element>();
@@ -42,7 +35,7 @@ public class HotelFragment extends Fragment {
         elements.add(new Element(getResources().getString(R.string.title_hotel_par), getResources().getString(R.string.adress_hotel_par), getResources().getString(R.string.tel_hotel_par), getResources().getString(R.string.operating_time_24H)));
         elements.add(new Element(getResources().getString(R.string.title_hotel_dri), getResources().getString(R.string.adress_hotel_dri), getResources().getString(R.string.tel_hotel_dri), getResources().getString(R.string.operating_time_24H)));
 
-        // Crie um {@link WordAdapter}, cuja fonte de dados é uma lista de {@link Element} s.
+        // Crie um {@link itemsAdapter}, cuja fonte de dados é uma lista de {@link Element} s.
         // adaptador sabe como criar itens de lista para cada item na lista
         ElementAdapter itemsAdapter = new ElementAdapter(getContext(), elements);
 
@@ -53,8 +46,6 @@ public class HotelFragment extends Fragment {
 
         // Faça o {@link ListView} usar o {@link ArrayAdapter} que criamos acima, para que o
         // {@link ListView} exibirá itens de lista para cada palavra na lista de palavras.
-        // Faça isso chamando o método setAdapter no objeto {@link ListView} e passe.
-        // 1 argumento, que é o {@link ArrayAdapter} com o nome da variável itemAdapter.
         listView.setAdapter(itemsAdapter);
 
         return rootView;
